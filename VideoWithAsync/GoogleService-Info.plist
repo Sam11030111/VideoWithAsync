@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>204503779041-m0oe8mnhhtcgaisum066ihvmquufblq6.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.204503779041-m0oe8mnhhtcgaisum066ihvmquufblq6</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAhuBSK4c2JvWCGXl6KfwCtkx_EQqtoR14</string>
+	<key>GCM_SENDER_ID</key>
+	<string>204503779041</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.1103.VideoWithAsync</string>
+	<key>PROJECT_ID</key>
+	<string>videowithasync-d1774</string>
+	<key>STORAGE_BUCKET</key>
+	<string>videowithasync-d1774.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:204503779041:ios:b69546606acaf34b1cd9a0</string>
+</dict>
+</plist>

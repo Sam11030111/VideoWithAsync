@@ -7,6 +7,7 @@
 
 import SwiftUI
 import PhotosUI
+import AVKit
 
 struct ContentView: View {
     
@@ -15,8 +16,9 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             ScrollView {
-                ForEach(0...3, id: \.self) { video in
-                    Text("Video goes here...")
+                ForEach(viewModel.videos) { video in
+                    VideoPlayer(player: AVPlayer(url: URL(string: video.videoUrl)!))
+                        .frame(height: 250)
                 }
             }
             .navigationTitle("Feed")
@@ -24,7 +26,7 @@ struct ContentView: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     
-                    PhotosPicker(selection: $viewModel.selected,
+                    PhotosPicker(selection: $viewModel.selectedItem,
                                  matching: .any(of: [.videos, .not(.images)])) {
                         Image(systemName: "plus")
                             .foregroundColor(.black)
