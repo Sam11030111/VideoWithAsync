@@ -21,6 +21,11 @@ struct ContentView: View {
                         .frame(height: 250)
                 }
             }
+            .refreshable {
+                Task {
+                    try await viewModel.fetchVideos()
+                }
+            }
             .navigationTitle("Feed")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
